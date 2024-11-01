@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --project my-app-ng18",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -18,6 +18,8 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+    "@trimble-cms/modus-wc": "file:../../../Desktop/trimble-cms-modus-wc-0.0.1.tgz",
+    "@trimble-cms/modus-wc-ng": "file:../../../Desktop/trimble-cms-modus-wc-ng-0.0.1-ng18.tgz",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
