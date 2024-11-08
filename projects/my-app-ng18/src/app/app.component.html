@@ -6,20 +6,19 @@
     <br />
     <br />
     <div>
-      <modus-wc-button label="modus button" [disabled]="true" />
+      <modus-wc-button label="modus button" [disabled]="false" />
     </div>
     <div>
       <app-modus-text-input />
     </div>
-    <modus-wc-divider
-      color="secondary"
-      aria-label="primary divider"
-      orientation="vertical"
-      content=":)"
-    >
+    <div id="divider" style="width: 100%">
       <modus-wc-badge content="modus badge" />
-    </modus-wc-divider>
-    <div>
+      <modus-wc-divider
+        color="secondary"
+        aria-label="primary divider"
+        orientation="vertical"
+        content="modus divider"
+      />
       <modus-wc-theme-provider>
         <modus-wc-theme-switcher aria-label="Toggle theme" custom-class="" />
       </modus-wc-theme-provider>
