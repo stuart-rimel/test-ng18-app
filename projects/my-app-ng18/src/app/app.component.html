@@ -5,24 +5,25 @@
     <br />
     <br />
     <br />
+    <!-- Placing the badge above the button breaks styles -->
+    <!-- <div>
+      <modus-wc-badge content="modus badge" />
+    </div> -->
     <div>
       <modus-wc-button label="modus button" [disabled]="false" />
+    </div>
+    <div>
+      <modus-wc-badge content="modus badge" />
     </div>
     <div>
       <app-modus-text-input />
     </div>
     <div id="divider" style="width: 100%">
-      <modus-wc-badge content="modus badge" />
-      <modus-wc-divider
-        color="secondary"
-        aria-label="primary divider"
-        orientation="vertical"
-        content="modus divider"
-      />
-      <modus-wc-theme-provider>
-        <modus-wc-theme-switcher aria-label="Toggle theme" custom-class="" />
-      </modus-wc-theme-provider>
+      <modus-wc-divider color="secondary" aria-label="primary divider" orientation="vertical" content="modus divider" />
     </div>
+    <modus-wc-theme-provider>
+      <modus-wc-theme-switcher aria-label="Toggle theme" custom-class="" />
+    </modus-wc-theme-provider>
   </div>
 </main>
 
